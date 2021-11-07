@@ -1,0 +1,44 @@
+Last login: Wed Oct  6 19:34:51 on ttys000
+Manishs-MacBook-Air-2:~ manishjaiswal$ python 3
+python: can't open file '3': [Errno 2] No such file or directory
+Manishs-MacBook-Air-2:~ manishjaiswal$ python3
+Python 3.10.0 (v3.10.0:b494f5935c, Oct  4 2021, 14:59:20) [Clang 12.0.5 (clang-1205.0.22.11)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> myName="vihaan"
+>>> myAge=15
+>>> print(myName)
+vihaan
+>>> myFriendList=["Jake","cameron","KJ"]
+>>> myFriendList[1]
+'cameron'
+>>> pocketMoney=input("enter the pocket money you get: ")
+enter the pocket money you get: 10
+>>> print(pocketMoney)
+10
+>>> age=int(input("enter your age"))
+enter your age15
+>>> if(age>18):
+...      print("you re an adult")
+... elif(age>12):
+...      print("your are a teenager")
+... else:
+...     print("you are a kid")
+... 
+your are a teenager
+>>> for friend in myFriendList:
+...     print(friend)
+... 
+Jake
+cameron
+KJ
+>>> count=5
+>>> while(count>0):
+...     print(count)
+...     count=count-1
+... 
+5
+4
+3
+2
+1
+>>> 
